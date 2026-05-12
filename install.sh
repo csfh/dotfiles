@@ -22,8 +22,8 @@ link_file() {
   ln -s -- "$source_path" "$target_path"
 }
 
-link_file "$repo_dir/home/.bunfig.toml" "$HOME/.bunfig.toml"
 link_file "$repo_dir/home/.npmrc" "$HOME/.npmrc"
+link_file "$repo_dir/config/.bunfig.toml" "$HOME/.config/.bunfig.toml"
 link_file "$repo_dir/config/ghostty/config" "$HOME/.config/ghostty/config"
 link_file "$repo_dir/config/pnpm/config.yaml" "$HOME/.config/pnpm/config.yaml"
 link_file "$repo_dir/config/Code/User/settings.json" "$HOME/.config/Code/User/settings.json"
