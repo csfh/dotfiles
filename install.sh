@@ -25,5 +25,5 @@ link_file() {
 link_file "$repo_dir/home/.bunfig.toml" "$HOME/.bunfig.toml"
 link_file "$repo_dir/home/.npmrc" "$HOME/.npmrc"
 link_file "$repo_dir/config/ghostty/config" "$HOME/.config/ghostty/config"
-link_file "$repo_dir/config/pnpm/rc" "$HOME/.config/pnpm/rc"
+link_file "$repo_dir/config/pnpm/config.yaml" "$HOME/.config/pnpm/config.yaml"
 link_file "$repo_dir/config/Code/User/settings.json" "$HOME/.config/Code/User/settings.json"
