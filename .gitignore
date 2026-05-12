@@ -1,0 +1,11 @@
+*.bak
+*.backup
+*.local
+*.log
+*.sqlite*
+.DS_Store
+.cache/
+.env
+.env.*
+!.env.example
+node_modules/
